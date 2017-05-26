@@ -31,7 +31,7 @@ html, body {
   background-color: rgba(0, 0, 0, 0.3);
 }
 .background:first-child {
-  background-image: url(http://s8.postimg.org/lf2udl5np/4_Aihmii.jpg);
+  background-image: url(https://static01.nyt.com/images/2016/04/18/blogs/18-lens-refugees-slide-8AS8/18-lens-refugees-slide-8AS8-superJumbo.jpg);
   -webkit-transform: translateY(-15vh);
           transform: translateY(-15vh);
 }
@@ -40,10 +40,10 @@ html, body {
           transform: translateY(15vh);
 }
 .background:nth-child(2) {
-  background-image: url(http://s8.postimg.org/ow4wgk4px/ugqti_Lg.jpg);
+  background-image: url(https://static.independent.co.uk/s3fs-public/thumbnails/image/2014/05/08/15/v2-syria-28.jpg);
 }
 .background:nth-child(3) {
-  background-image: url(http://s8.postimg.org/grwsbtiat/x_ZMOBTj.jpg);
+  background-image: url(http://i.huffpost.com/gen/2951476/images/o-CHRISTOPHE-ROHINGYA-facebook.jpg);
 }
 .background:nth-child(4) {
   background-image: url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-7349.jpg);
@@ -60,6 +60,15 @@ html, body {
 
 .background:nth-child(3) {
   z-index: 1;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #99ccff;
 }
 
 .content-wrapper {
@@ -87,7 +96,12 @@ html, body {
 .content-title {
   font-size: 12vh;
   line-height: 1.4;
-}x
+    color: white;
+}
+
+.content-subtitle {
+    font-size: 20px;
+}
 
 .background.up-scroll {
   -webkit-transform: translate3d(0, -15vh, 0);

@@ -1,0 +1,228 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+body {
+    background-image: url("https://images.freecreatives.com/wp-content/uploads/2016/05/PGradient-Background-For-Desktop.jpg");
+    font-family: Montserrat;
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+    color: white;
+}
+
+.heading {
+    font-size: 12vh;
+  line-height: 1.4;
+    color: white;
+    margin-top: -80px;
+    text-align: center;
+}
+
+.summary {
+    text-align: center;
+    margin-top: 500px;
+   
+}
+
+.subtitle {
+    font-size: 8vh;
+  line-height: 1.4;
+    color: white;
+    text-align: center;
+}
+
+.summarySyria {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 300px;
+    font-size: 3vh;
+    line-height: 1.4;
+    color: white;
+    text-align: justify;
+}
+
+.demographics {
+    width: 98.5%;
+    height: 80%;
+    margin-top: -20%;
+    background-size: 60% 90%;
+}
+
+.demographTitle {
+    font-size: 8vh;
+  line-height: 1.4;
+    color: white;
+    text-align: center;
+    
+}
+
+.statsBox {
+    width: 100%;
+    height: 80%;
+    text-align: left;
+}
+
+.demographStats {
+    font-size: 4vh;
+    line-height: 1.4;
+    color: white;
+    text-align: center;
+}
+
+#map {
+    margin-top: -15%;
+}
+
+#caption {
+    padding: 2%;
+    font-size: 3vh;
+}
+
+.personalAccounts {
+    margin-top: -1%;
+}
+
+.accountsTitle {
+    font-size: 8vh;
+  line-height: 1.4;
+    color: white;
+    text-align: center;
+}
+
+#links {
+    font-size: 8vh;
+  line-height: 1.4;
+    color: white;
+    text-align: center;
+}
+
+#un {
+    margin-left: 20%;
+    margin-bottom: -1.5%;
+    margin-top: 3%;
+}
+
+#IR {
+    margin-left: 60%;
+    margin-top: -100%;
+}
+
+#SAMS {
+    margin-top: 4%;
+    margin-left: 30%;
+    margin-bottom: 5%;
+}
+
+.quotes {
+    width: 80%;
+    height: 20%;
+    font-size: 4vh;
+    line-height: 1.4;
+    color: white;
+    text-align: center;
+    margin-left: 10%;
+}
+    
+[data-am-gallery] {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  /* Navigation */
+}
+[data-am-gallery] input[type="radio"] {
+  position: fixed;
+  top: -9999px;
+}
+[data-am-gallery] input[type="radio"]:checked:nth-child(5) ~ .images .image:nth-child(5) {
+  opacity: 1;
+}
+[data-am-gallery] input[type="radio"]:checked:nth-child(5) ~ .navigation .dot:nth-child(5) {
+  background-color: gold;
+}
+[data-am-gallery] input[type="radio"]:checked:nth-child(5) ~ .navigation .dot:nth-child(5):hover {
+  opacity: 1;
+}
+[data-am-gallery] input[type="radio"]:checked:nth-child(4) ~ .images .image:nth-child(4) {
+  opacity: 1;
+}
+[data-am-gallery] input[type="radio"]:checked:nth-child(4) ~ .navigation .dot:nth-child(4) {
+  background-color: gold;
+}
+[data-am-gallery] input[type="radio"]:checked:nth-child(4) ~ .navigation .dot:nth-child(4):hover {
+  opacity: 1;
+}
+[data-am-gallery] input[type="radio"]:checked:nth-child(3) ~ .images .image:nth-child(3) {
+  opacity: 1;
+}
+[data-am-gallery] input[type="radio"]:checked:nth-child(3) ~ .navigation .dot:nth-child(3) {
+  background-color: gold;
+}
+[data-am-gallery] input[type="radio"]:checked:nth-child(3) ~ .navigation .dot:nth-child(3):hover {
+  opacity: 1;
+}
+[data-am-gallery] input[type="radio"]:checked:nth-child(2) ~ .images .image:nth-child(2) {
+  opacity: 1;
+}
+[data-am-gallery] input[type="radio"]:checked:nth-child(2) ~ .navigation .dot:nth-child(2) {
+  background-color: gold;
+}
+[data-am-gallery] input[type="radio"]:checked:nth-child(2) ~ .navigation .dot:nth-child(2):hover {
+  opacity: 1;
+}
+[data-am-gallery] input[type="radio"]:checked:nth-child(1) ~ .images .image:nth-child(1) {
+  opacity: 1;
+}
+[data-am-gallery] input[type="radio"]:checked:nth-child(1) ~ .navigation .dot:nth-child(1) {
+  background-color: gold;
+}
+[data-am-gallery] input[type="radio"]:checked:nth-child(1) ~ .navigation .dot:nth-child(1):hover {
+  opacity: 1;
+}
+[data-am-gallery] .image {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: opacity 400ms ease;
+  transition: opacity 400ms ease;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+[data-am-gallery] .navigation {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+[data-am-gallery] .dot {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: 0 2px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+  -webkit-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
+}
+[data-am-gallery] .dot:hover {
+  opacity: 0.5;
+}
+
+/* Base */
+body {
+  margin: 0;
+}
+
+.container {
+  position: absolute;
+  top: 20%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    height: 60%;
+}
