@@ -8,11 +8,22 @@ body {
     color: white;
 }
 
+.navbar {
+    margin-top: -25.1%;
+    background-color: black;
+    font-family: Montserrat;
+    position: fixed;
+}
+
+.brand-logo center {
+    color: white;
+}
+
 .heading {
     font-size: 12vh;
   line-height: 1.4;
     color: white;
-    margin-top: 10%;
+    margin-top: 8%;
     text-align: center;
 }
 
@@ -27,6 +38,7 @@ body {
   line-height: 1.4;
     color: white;
     text-align: center;
+    margin-top: 30%;
 }
 
 .summarySyria {
@@ -52,6 +64,7 @@ body {
   line-height: 1.4;
     color: white;
     text-align: center;
+    margin-top: 10%;
     
 }
 
@@ -220,7 +233,7 @@ body {
 
 .container {
   position: absolute;
-  top: 40%;
+  top: 38%;
   bottom: 0;
   left: 0;
   right: 0;
