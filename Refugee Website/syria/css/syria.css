@@ -15,9 +15,10 @@ body {
     position: fixed;
 }
 
-.brand-logo center {
-    color: white;
+.nav-wrapper {
+    color: black;
 }
+
 
 .heading {
     font-size: 12vh;

@@ -1,18 +1,29 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat);
 
 body {
-    background-image: url("https://www.walldevil.com/wallpapers/a77/wallpaper-abstract-background-backgrounds-gradient.jpg");
+    background-image: url("http://wallpapercave.com/wp/f2nbsPJ.jpg");
     font-family: Montserrat;
     background-attachment: fixed;
     background-repeat: repeat-y;
     color: white;
 }
 
+.navbar {
+    margin-top: -25.1%;
+    background-color: black;
+    font-family: Montserrat;
+    position: fixed;
+}
+
+.nav-wrapper {
+    color: black;
+}
+
 .heading {
     font-size: 12vh;
   line-height: 1.4;
     color: white;
-    margin-top: -8%;
+    margin-top: 8%;
     text-align: center;
 }
 
@@ -218,7 +229,7 @@ body {
 
 .container {
   position: absolute;
-  top: 20%;
+  top: 35%;
   bottom: 0;
   left: 0;
   right: 0;

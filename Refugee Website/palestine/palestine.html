@@ -2,11 +2,12 @@
 <html >
 <head>
   <meta charset="UTF-8">
-  <title>CSS Fadeshow (Core functionality)</title>
+  <title>Global Refuge - Palestine</title>
   
       <link rel="stylesheet" href="css/palestine.css">
          <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <link rel="stylesheet" href="css/hamburger3.css">
 
   
 </head>
@@ -17,16 +18,40 @@
         <p>Palestine</p>
     </div>
     
-  <!--  <nav class="navbar">
+  <nav class="navbar">
     <div class="nav-wrapper">
-      <a href="#" class="brand-logo center">Logo</a>
-      <ul id="nav-mobile" class="left hide-on-med-and-down">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">JavaScript</a></li>
-      </ul>
+      <a href="../index.html" class="brand-logo center">Global Refuge</a>
     </div>
-  </nav> -->
+        
+    <div id="menuToggle">
+    <!--
+    A fake / hidden checkbox is used as click reciever,
+    so you can use the :checked selector on it.
+    -->
+    <input type="checkbox" />
+    
+    <!--
+    Some spans to act as a hamburger.
+    
+    They are acting like a real hamburger,
+    not that McDonalds stuff.
+    -->
+    <span></span>
+    <span></span>
+    <span></span>
+    
+    <!--
+    Too bad the menu has to be inside of the button
+    but hey, it's pure CSS magic.
+    -->
+    <ul id="menu">
+      <a href="../index.html"><li>Home</li></a>
+      <a href="../burma/burma.html"><li>Burma</li></a>
+      <a href="../syria/syria.html"><li>Syria</li></a>
+    </ul>
+  </div>
+        
+  </nav>
 
 <div class="container">
 	
